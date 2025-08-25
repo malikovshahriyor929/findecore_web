@@ -2,7 +2,6 @@
 import React from 'react'
 import { motion } from "framer-motion"
 import { Sparkles } from 'lucide-react'
-import { Button } from '../ui/button'
 import Buttons from '@/shared/generics/button'
 import { AITypingAnimation } from './animationLikeTyping'
 import Link from 'next/link'
@@ -41,7 +40,7 @@ const Showcase = () => {
                 Get started
               </Buttons>
               <Buttons type="outline">
-                Let's Talk
+                Let&apos;s Talk
               </Buttons>
             </div>
           </Link>

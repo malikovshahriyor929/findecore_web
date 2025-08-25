@@ -2,7 +2,7 @@
 
 import { useRef, useState } from "react"
 import { motion, AnimatePresence, useInView } from "framer-motion"
-import { Plus, X } from "lucide-react"
+import { Plus } from "lucide-react"
 
 const faqData = [
   {

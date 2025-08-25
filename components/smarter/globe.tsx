@@ -4,7 +4,7 @@ import { useEffect, useRef } from 'react';
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 
-const deg = (d: number) => THREE.MathUtils.degToRad(d);
+// const deg = (d: number) => THREE.MathUtils.degToRad(d);
 
 export default function EarthCanvas() {
   const containerRef = useRef<HTMLDivElement>(null);
